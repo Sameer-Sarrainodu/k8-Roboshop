@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
+  namespace: roboshop
   name: mysql
   labels:
     component: mysql
